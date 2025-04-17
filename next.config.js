@@ -11,6 +11,7 @@ const APP_URL =
  * @see https://nextjs.org/docs/pages/api-reference/next-config-js
  */
 let nextConfig = {
+  output: "export",
   env: {
     APP_URL,
   },
